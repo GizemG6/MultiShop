@@ -33,7 +33,7 @@ namespace MultiShop.Catalog.Controllers
         public async Task<IActionResult> CreateProduct(CreateProductDto createProductDto)
         {
             await _productService.CreateProductAsync(createProductDto);
-            return Ok("Product added successfully");
+            return Ok("Product created successfully");
         }
 
         [HttpDelete]
