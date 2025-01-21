@@ -1,5 +1,5 @@
 
-namespace MultiShop.Catalog
+namespace MultiShop.Discount
 {
     public class Program
     {
