@@ -42,21 +42,21 @@ namespace MultiShop.Order.WebApi.Controllers
         public async Task<IActionResult> CreateAddress(CreateAddressCommand command)
         {
             await _createAddressCommandHandler.Handle(command);
-            return Ok("Adres bilgisi başarıyla eklendi");
+            return Ok("Address information created successfully");
         }
 
         [HttpPut]
         public async Task<IActionResult> UpdateAddress(UpdateAddressCommand command)
         {
             await _updateAddressCommandHandler.Handle(command);
-            return Ok("Adres bilgisi başarıyla güncellendi");
+            return Ok("Address information updated successfully");
         }
 
         [HttpDelete]
         public async Task<IActionResult> RemoveAddress(int id)
         {
             await _removeAddressCommandHandler.Handle(new RemoveAddressCommand(id));
-            return Ok("Adres başarıyla silindi");
+            return Ok("Address information removed successfully");
         }
     }
 }
