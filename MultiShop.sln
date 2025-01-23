@@ -21,13 +21,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{4DB796A1-77C3-4E5D-BEF3-60AA5F43ABBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.Domain", "Services\Order\Core\MultiShop.Order.Domain\MultiShop.Order.Domain.csproj", "{1F58228B-59E9-4911-9F67-B9972E4526F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.Order.Domain", "Services\Order\Core\MultiShop.Order.Domain\MultiShop.Order.Domain.csproj", "{1F58228B-59E9-4911-9F67-B9972E4526F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.Application", "Services\Order\Core\MultiShop.Order.Application\MultiShop.Order.Application.csproj", "{A12CD0B1-8726-4E23-8872-B5DC26DB7A15}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.Order.Application", "Services\Order\Core\MultiShop.Order.Application\MultiShop.Order.Application.csproj", "{A12CD0B1-8726-4E23-8872-B5DC26DB7A15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.Persistence", "Services\Order\Infrastructure\MultiShop.Order.Persistence\MultiShop.Order.Persistence.csproj", "{4C36E24A-5692-4939-AA5B-54DF3DB66A24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.Order.Persistence", "Services\Order\Infrastructure\MultiShop.Order.Persistence\MultiShop.Order.Persistence.csproj", "{4C36E24A-5692-4939-AA5B-54DF3DB66A24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Order.WebApi", "Services\Order\Presentation\MultiShop.Order.WebApi\MultiShop.Order.WebApi.csproj", "{B8D9F006-93D0-4BF3-B380-5D5987796448}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.Order.WebApi", "Services\Order\Presentation\MultiShop.Order.WebApi\MultiShop.Order.WebApi.csproj", "{B8D9F006-93D0-4BF3-B380-5D5987796448}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityServer", "{637188AD-DB03-4AC7-A32F-E7FD19FE9633}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiShop.IdentityServer", "IdentityServer\MultiShop.IdentityServer\MultiShop.IdentityServer.csproj", "{D1370012-5154-4A27-B80E-0914088A4E61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,10 @@ Global
 		{B8D9F006-93D0-4BF3-B380-5D5987796448}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8D9F006-93D0-4BF3-B380-5D5987796448}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8D9F006-93D0-4BF3-B380-5D5987796448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1370012-5154-4A27-B80E-0914088A4E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1370012-5154-4A27-B80E-0914088A4E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1370012-5154-4A27-B80E-0914088A4E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1370012-5154-4A27-B80E-0914088A4E61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +84,7 @@ Global
 		{A12CD0B1-8726-4E23-8872-B5DC26DB7A15} = {88719978-9675-4BFE-B97E-8F5F632716B0}
 		{4C36E24A-5692-4939-AA5B-54DF3DB66A24} = {7C158F5A-D516-4930-A9D0-E68017BCA49B}
 		{B8D9F006-93D0-4BF3-B380-5D5987796448} = {4DB796A1-77C3-4E5D-BEF3-60AA5F43ABBE}
+		{D1370012-5154-4A27-B80E-0914088A4E61} = {637188AD-DB03-4AC7-A32F-E7FD19FE9633}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7A078622-C91A-4778-9B2E-30A3520CFAC4}
