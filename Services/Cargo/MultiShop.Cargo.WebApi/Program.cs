@@ -1,4 +1,6 @@
 
+using MultiShop.Cargo.DataAccessLayer.Concrete;
+
 namespace MultiShop.Cargo.WebApi
 {
     public class Program
@@ -7,7 +9,7 @@ namespace MultiShop.Cargo.WebApi
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            builder.Services.AddDbContext<CargoContext>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -26,7 +28,6 @@ namespace MultiShop.Cargo.WebApi
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
-
 
             app.MapControllers();
 
