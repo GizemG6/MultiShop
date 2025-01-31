@@ -16,4 +16,8 @@
     <Folder Include="Areas\Admin\Views\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MultiShop.DtoLayer\MultiShop.DtoLayer.csproj" />
+  </ItemGroup>
+
 </Project>
