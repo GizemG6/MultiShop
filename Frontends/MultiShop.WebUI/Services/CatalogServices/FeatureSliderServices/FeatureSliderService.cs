@@ -3,7 +3,7 @@ using Newtonsoft.Json;
 
 namespace MultiShop.WebUI.Services.CatalogServices.FeatureSliderServices
 {
-    public class FeatureSliderService
+    public class FeatureSliderService : IFeatureSliderService
     {
         private readonly HttpClient _httpClient;
         public FeatureSliderService(HttpClient httpClient)

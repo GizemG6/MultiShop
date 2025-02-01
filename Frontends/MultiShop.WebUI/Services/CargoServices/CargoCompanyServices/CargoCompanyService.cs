@@ -4,11 +4,11 @@ using Newtonsoft.Json;
 
 namespace MultiShop.WebUI.Services.CargoServices.CargoCompanyServices
 {
-    public class CargoCompanyServices : ICargoCompanyService
+    public class CargoCompanyService : ICargoCompanyService
     {
         private readonly HttpClient _httpClient;
 
-        public CargoCompanyServices(HttpClient httpClient)
+        public CargoCompanyService(HttpClient httpClient)
         {
             _httpClient = httpClient;
         }
