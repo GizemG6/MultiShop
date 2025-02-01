@@ -55,6 +55,7 @@ namespace MultiShop.Catalog
 
             app.UseHttpsRedirection();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
 
