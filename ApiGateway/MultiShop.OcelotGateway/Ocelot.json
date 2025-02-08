@@ -20,7 +20,7 @@
 
     },
 
-    ////Discount Mikroservis
+    //Discount Mikroservis
     //{
     //  "DownstreamPathTemplate": "/api/{everything}",
     //  "DownstreamScheme": "http",
